@@ -1,0 +1,36 @@
+﻿<Window x:Class="EmployeeCase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeCase"
+        mc:Ignorable="d"
+        Title="Employee List" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGridEmployee" Height="400" Width="780" HorizontalAlignment="Left" Margin="12,39,0,0" VerticalAlignment="Top" RowHeight="30" ColumnWidth="100" AutoGenerateColumns="True">
+            <DataGrid.Resources>
+                <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="#FFC97466" />
+                </Style>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="100" Header="ID" Binding="{Binding id}" />
+                <DataGridTextColumn Width="250" Header="Name" Binding="{Binding name}" />
+                <DataGridTextColumn Width="150" Header="Salary" Binding="{Binding salary}" />
+                <DataGridTextColumn Width="100" Header="Age" Binding="{Binding age}" />
+                <DataGridTemplateColumn Header="" Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="btnView" Content="View" Click="btnView_Click" />
+                                <Button Name="btnDelete" Content="Delete" Click="btnDelete_Click" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnCreate" Content="Create New Employee" HorizontalAlignment="Left" Margin="626,16,0,0" VerticalAlignment="Top" Width="124" Click="btnCreate_Click"/>
+    </Grid>
+</Window>

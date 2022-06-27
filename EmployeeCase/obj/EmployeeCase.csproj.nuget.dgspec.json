@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase\\EmployeeCase.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase.Business\\EmployeeCase.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase.Business\\EmployeeCase.Business.csproj",
+        "projectName": "EmployeeCase.Business",
+        "projectPath": "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase.Business\\EmployeeCase.Business.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase\\EmployeeCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase\\EmployeeCase.csproj",
+        "projectName": "EmployeeCase",
+        "projectPath": "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase\\EmployeeCase.csproj",
+        "packagesPath": "C:\\Users\\onuradiguzel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\onuradiguzel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.araskargo.com.tr/repository/esas/": {},
+          "http://svn-srv.araskargo.com.tr/nugetserver/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase.Business\\EmployeeCase.Business.csproj": {
+                "projectPath": "C:\\Users\\onuradiguzel\\source\\repos\\EmployeeCase\\EmployeeCase.Business\\EmployeeCase.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

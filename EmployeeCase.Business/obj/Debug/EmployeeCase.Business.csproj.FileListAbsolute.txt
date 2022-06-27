@@ -1,0 +1,15 @@
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\EmployeeCase.Business.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\EmployeeCase.Business.pdb
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\RestSharp.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\System.Net.Http.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\bin\Debug\Newtonsoft.Json.xml
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\obj\Debug\EmployeeCase.Business.csproj.AssemblyReference.cache
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\obj\Debug\EmployeeCase.Business.csproj.CoreCompileInputs.cache
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\obj\Debug\EmployeeCase.Business.dll
+C:\Users\onuradiguzel\source\repos\EmployeeCase\EmployeeCase.Business\obj\Debug\EmployeeCase.Business.pdb

@@ -1,0 +1,19 @@
+﻿<Window x:Class="EmployeeCase.EmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeCase"
+        mc:Ignorable="d"
+        Title="New Employee" Height="270" Width="380">
+    <Grid Margin="0,0,0,0">
+        <Label x:Name="label" Content="Name:" HorizontalAlignment="Left" Margin="35,35,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Margin="130,40,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Label x:Name="label1" Content="Age:" HorizontalAlignment="Left" Margin="38,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxAge" HorizontalAlignment="Left" Margin="132,89,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" PreviewTextInput="textBoxNum_PreviewTextInput" />
+        <Label x:Name="label2" Content="Salary:" HorizontalAlignment="Left" Margin="37,138,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxSalary" HorizontalAlignment="Left" Margin="133,143,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" PreviewTextInput="textBoxNum_PreviewTextInput"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="246,203,0,0" VerticalAlignment="Top" Width="67" Click="btnCreate_Click"/>
+
+    </Grid>
+</Window>
